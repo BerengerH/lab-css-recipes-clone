@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap");
+
+body {
+  font-size: 20px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+hr {
+  border-top: 2px solid black;
+  width: 70%;
+  margin: auto;
+}
+
+/*--------------------------------------HEADER SECTION----------------------------------*/
+header {
+  position: relative;
+  text-align: center;
+}
+
+.header img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.header h1 {
+  color: #fff;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*------------------------------------DESCRIPTION SECTION--------------------------------*/
+.description {
+  margin: 100px 200px;
+}
+
+.description p {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.description img {
+  display: flex;
+  margin: auto;
+}
+
+/*------------------------------------INGREDIENTS SECTION--------------------------------*/
+.ingredients {
+  margin: 100px 200px;
+}
+
+.ingredients img {
+  display: flex;
+  margin: auto;
+}
+
+.ingredient-list {
+  margin: 3% 0;
+}
+
+/*--------------------------------COOKING INSTRUCTION SECTION------------------------------*/
+.cooking-instruction {
+  margin: 100px 200px;
+}
+
+.instruction-list {
+  margin: 3% 0;
+}
